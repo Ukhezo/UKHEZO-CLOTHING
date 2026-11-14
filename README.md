@@ -1,5 +1,9 @@
 # UKHEZO Clothing Co.
 
+**Live site: [ukhezo.github.io/UKHEZO-CLOTHING](https://ukhezo.github.io/UKHEZO-CLOTHING/)**
+
+![UKHEZO Clothing Co. store home page](images/screenshot.jpg)
+
 A front-end ecommerce demo for a South African clothing store. Shoppers can browse, filter, pick a colour and size, fill a cart and go through a demo checkout. Prices are in Rand (ZAR).
 
 > **Demo only:** checkout takes no payment and stores no orders. See [Going live](#going-live).
@@ -28,7 +32,7 @@ No frameworks, build tools or dependencies. Fonts load from Google Fonts.
 ## Project structure
 
 ```
-ukhezo-store/
+UKHEZO-CLOTHING/
 ├── index.html
 ├── favicon.png
 ├── css/
@@ -36,6 +40,7 @@ ukhezo-store/
 ├── js/
 │   └── app.js
 ├── images/
+│   ├── screenshot.jpg   # README preview
 │   └── products/        # one photo per product colour, e.g. sunday-linen-shirt-sand.jpg
 ├── README.md
 ├── LICENSE
@@ -56,7 +61,7 @@ python -m http.server 8000
 1. Push this folder to a GitHub repository.
 2. On GitHub, go to **Settings → Pages**.
 3. Under **Build and deployment**, set **Source** to *Deploy from a branch*, choose `main` and `/ (root)`, then **Save**.
-4. After a minute your store is live at `https://<your-username>.github.io/<repo-name>/`.
+4. After a minute your store is live at `https://<your-username>.github.io/<repo-name>/`. This copy is live at <https://ukhezo.github.io/UKHEZO-CLOTHING/>.
 
 ## Edit products
 
