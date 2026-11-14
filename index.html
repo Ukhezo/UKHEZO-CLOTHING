@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UKHEZO Clothing Co.</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Cormorant+Garamond:ital,wght@1,500;1,600;1,700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="promo">Free delivery anywhere in South Africa on orders over R750 · 30-day free returns</div>
+<header>
+  <div class="wrap">
+    <div class="bar">
+      <div class="logo" aria-label="UKHEZO Clothing Co.">
+        <span class="wordmark"><span class="wm-main">UKHEZO</span><span class="wm-sub">Clothing Co.</span></span>
+      </div>
+      <label class="search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Search shirts, denim, dresses…" aria-label="Search products">
+      </label>
+      <button class="cart-btn" id="openCart" aria-label="Open cart">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+        <span class="label">Cart</span><span class="count" id="count">0</span>
+      </button>
+    </div>
+    <nav class="cats" id="cats" aria-label="Categories"></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <div>
+      <h1>Easy everyday wear, built for long sunny days.</h1>
+      <p>Light, airy cotton, hard-wearing denim and easy-to-layer pieces, all cut and stitched in Greytown and Kranskop, KwaZulu-Natal. Fresh styles arrive every month.</p>
+      <ul class="perks">
+        <li><b>R750+</b> free delivery</li>
+        <li><b>2–4</b> working days to main centres</li>
+        <li><b>30-day</b> free returns</li>
+      </ul>
+    </div>
+    <div class="feature" id="feature"></div>
+  </section>
+
+  <section>
+    <div class="toolbar">
+      <div><h2 id="heading">All clothing</h2><div class="meta" id="meta"></div></div>
+      <label>
+        <span class="meta">Sort by </span>
+        <select id="sort" aria-label="Sort products">
+          <option value="featured">Featured</option>
+          <option value="low">Price: low to high</option>
+          <option value="high">Price: high to low</option>
+          <option value="new">Newest</option>
+        </select>
+      </label>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-cols">
+        <div>
+          <h3>Company info</h3>
+          <ul>
+            <li><button class="flink" data-info="about">About</button></li>
+            <li><button class="flink" data-info="makers">Our makers</button></li>
+            <li><button class="flink" data-info="impact">Social responsibility</button></li>
+            <li><button class="flink" data-info="careers">Careers</button></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Help &amp; support</h3>
+          <ul>
+            <li><button class="flink" data-info="shipping">Shipping info</button></li>
+            <li><button class="flink" data-info="returns">Returns</button></li>
+            <li><button class="flink" data-info="refunds">Refunds</button></li>
+            <li><button class="flink" data-info="order">How to order</button></li>
+            <li><button class="flink" data-info="track">How to track</button></li>
+            <li><button class="flink" data-info="size">Size guide</button></li>
+            <li><button class="flink" data-info="club">UKHEZO Club</button></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Customer care</h3>
+          <ul>
+            <li><button class="flink" data-info="contact">Contact us</button></li>
+            <li><button class="flink" data-info="payment">Payment methods</button></li>
+            <li><button class="flink" data-info="points">Reward points</button></li>
+            <li><button class="flink" data-info="faq">FAQ</button></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="foot-side">
+        <div class="foot-row">
+          <div>
+            <h3>Find us on</h3>
+            <div class="icons"><a href="#" data-soon="Facebook" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h-2a4 4 0 0 0-4 4v3H7v4h2v7h4v-7h3l1-4h-4V7a1 1 0 0 1 1-1h2z"/></svg></a><a href="#" data-soon="Instagram" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg></a><a href="#" data-soon="X" aria-label="X"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l16 16M20 4L4 20"/></svg></a><a href="#" data-soon="YouTube" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg></a><a href="#" data-soon="TikTok" aria-label="TikTok"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12a3 3 0 1 0 3-3V3c1 2.5 3 4 6 4"/></svg></a><a href="#" data-soon="Pinterest" aria-label="Pinterest"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M11 8l-2 10M12 8.5c2.5-1 5 .5 4 3.5s-4 2.5-5 1.5"/></svg></a><a href="#" data-soon="LinkedIn" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg></a></div>
+          </div>
+          <div>
+            <h3>App</h3>
+            <div class="icons">
+              <button data-soon="The iPhone app" aria-label="iPhone app"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M11 18.5h2"/></svg></button>
+              <button data-soon="The Android app" aria-label="Android app"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 11h12v7a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z"/><path d="M6 10a6 6 0 0 1 12 0M8 4l1.5 2.5M16 4l-1.5 2.5"/></svg></button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Sign up for UKHEZO style news</h3>
+          <form class="sub-form" data-sub="email">
+            <input type="email" required placeholder="Your email address" aria-label="Email address">
+            <button class="btn" type="submit">Subscribe</button>
+          </form>
+          <form class="sub-form" data-sub="SMS">
+            <span class="cc">ZA +27</span>
+            <input type="tel" required pattern="[0-9 ]{9,12}" placeholder="Phone number for SMS" aria-label="Phone number for SMS">
+            <button class="btn" type="submit">Subscribe</button>
+          </form>
+          <form class="sub-form" data-sub="WhatsApp">
+            <span class="cc">ZA +27</span>
+            <input type="tel" required pattern="[0-9 ]{9,12}" placeholder="WhatsApp number" aria-label="WhatsApp number">
+            <button class="btn" type="submit">Subscribe</button>
+          </form>
+          <p class="sub-note">New drops, restocks and members-only sales. Unsubscribe any time.</p>
+        </div>
+
+        <div>
+          <h3>We accept</h3>
+          <div class="pay" role="list" aria-label="Accepted payment methods"><div class="pm" role="listitem" title="Visa"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M2.5 10h19M6 15h4"/></svg><span><b>Visa</b><small>Card</small></span></div><div class="pm" role="listitem" title="Mastercard"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M2.5 10h19M6 15h4"/></svg><span><b>Mastercard</b><small>Card</small></span></div><div class="pm" role="listitem" title="Amex"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M2.5 10h19M6 15h4"/></svg><span><b>Amex</b><small>Card</small></span></div><div class="pm" role="listitem" title="Instant EFT"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10l9-5 9 5M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/></svg><span><b>Instant EFT</b><small>Bank</small></span></div><div class="pm" role="listitem" title="SnapScan"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3M21 14v.01M14 21h3M20 18v3"/></svg><span><b>SnapScan</b><small>Scan to pay</small></span></div><div class="pm" role="listitem" title="Zapper"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3M21 14v.01M14 21h3M20 18v3"/></svg><span><b>Zapper</b><small>Scan to pay</small></span></div><div class="pm" role="listitem" title="PayFlex"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3v9l6.4 6.4M12 12H3"/></svg><span><b>PayFlex</b><small>Pay in 4</small></span></div><div class="pm" role="listitem" title="Apple Pay"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/><path d="M20 8.5a5 5 0 0 1 0 7M22.5 6a9 9 0 0 1 0 12"/></svg><span><b>Apple Pay</b><small>Tap to pay</small></span></div><div class="pm" role="listitem" title="Samsung Pay"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/><path d="M20 8.5a5 5 0 0 1 0 7M22.5 6a9 9 0 0 1 0 12"/></svg><span><b>Samsung Pay</b><small>Tap to pay</small></span></div></div>
+          <div class="trust">
+            <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>Secure checkout</span>
+            <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg>POPIA compliant</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <div>
+        <div class="foot-brand"><span class="wordmark"><span class="wm-main" style="font-size:22px">UKHEZO</span><span class="wm-sub">Clothing Co.</span></span></div>
+        <div>© 2020–2026 UKHEZO Clothing Co. All rights reserved. Demo store: no real payments are taken.</div>
+        <div class="legal" style="margin-top:8px">
+          <button class="flink" data-info="privacy">Privacy centre</button>
+          <button class="flink" data-info="cookies">Privacy &amp; cookie policy</button>
+          <button class="flink" data-info="terms">Terms &amp; conditions</button>
+          <button class="flink" data-info="paia">PAIA manual</button>
+        </div>
+      </div>
+      <span class="region"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>South Africa · ZAR</span>
+    </div>
+  </div>
+</footer>
+
+<div class="scrim" id="scrim"></div>
+
+<aside class="drawer" id="drawer" aria-label="Shopping cart" aria-hidden="true">
+  <header><h2>Your cart</h2><button class="x" data-close aria-label="Close cart">×</button></header>
+  <div class="lines" id="lines"></div>
+  <div class="totals" id="totals"></div>
+</aside>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Details">
+  <div class="panel" id="panel"></div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
