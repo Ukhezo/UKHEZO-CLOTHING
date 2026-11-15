@@ -297,7 +297,7 @@ const INFO = {
       <li><b>Easy to shop.</b> Free delivery on orders over R750 and 30-day free returns, nationwide.</li>
     </ul>
     <p class="about-sign">Thank you for supporting a proudly South African brand.<br><b>The UKHEZO team</b></p>`],
-  makers:["Our makers","<p>Every piece is made by small partner workshops in Greytown and Kranskop, KwaZulu-Natal. We visit each one regularly and pay above the bargaining-council minimum.</p>"],
+  makers:["Our makers","<p>Every piece is made by small partner workshops in Greytown and Kranskop in KwaZulu-Natal. We visit each one regularly and pay above the bargaining-council minimum.</p>"],
   impact:["Social responsibility","<ul><li>Locally made, short supply chains</li><li>Offcuts donated to sewing schools</li><li>Recycled, plastic-free packaging</li></ul>"],
   careers:["Careers","<p>We're always keen to meet makers, stylists and customer-care stars. Send your CV to careers@ukhezo.example.</p>"],
   shipping:["Shipping info","<table><tr><th>Option</th><th>Time</th><th>Cost</th></tr><tr><td>Standard courier</td><td>2–4 working days to main centres</td><td>R95, free over R750</td></tr><tr><td>Express</td><td>1–2 working days</td><td>R180</td></tr><tr><td>Click &amp; collect</td><td>Ready in 2 days</td><td>Free</td></tr></table><p>Outlying areas may take 2–3 extra days.</p>"],
