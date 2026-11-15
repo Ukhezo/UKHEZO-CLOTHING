@@ -211,7 +211,9 @@ header{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px s
   .wm-main{font-size:22px;letter-spacing:.16em;margin-right:-.16em}
   .wm-sub{font-size:13px}
   .wm-sub::before,.wm-sub::after{width:10px}
-  .search{max-width:none}
+  .bar{flex-wrap:wrap;row-gap:10px;padding:12px 0 10px}
+  .cart-btn{margin-left:auto}
+  .search{order:3;flex:1 1 100%;max-width:none;margin-left:0}
 }
 @media (max-width:420px){
   .cart-btn .label{display:none}
